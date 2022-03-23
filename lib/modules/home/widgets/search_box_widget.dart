@@ -1,7 +1,6 @@
+import 'package:busca_cep/application/themes/styles/app_colors.dart';
+import 'package:busca_cep/application/themes/styles/app_text_styles.dart';
 import 'package:flutter/material.dart';
-
-import 'package:unip_presentation/application/themes/styles/app_colors.dart';
-import 'package:unip_presentation/application/themes/styles/app_text_styles.dart';
 
 class SearchBoxWidget extends StatelessWidget {
   final TextEditingController controller;

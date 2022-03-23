@@ -1,9 +1,9 @@
 import 'dart:developer';
+import 'package:busca_cep/application/themes/loader/loader_mixin.dart';
+import 'package:busca_cep/core/models/cep/cep_model.dart';
+import 'package:busca_cep/core/view_models/search/search_view_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:unip_presentation/application/themes/loader/loader_mixin.dart';
-import 'package:unip_presentation/core/models/cep/cep_model.dart';
-import 'package:unip_presentation/core/view_models/search/search_view_model.dart';
 
 class HomeController extends GetxController with LoaderMixin {
   TextEditingController searchController = TextEditingController();

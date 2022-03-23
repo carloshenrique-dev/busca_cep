@@ -1,6 +1,6 @@
 {
-    "name": "unip_presentation",
-    "short_name": "unip_presentation",
+    "name": "busca_cep",
+    "short_name": "busca_cep",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

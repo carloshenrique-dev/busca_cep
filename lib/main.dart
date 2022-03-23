@@ -1,14 +1,14 @@
 import 'dart:io';
+import 'package:busca_cep/application/bindings/application_bindings.dart';
+import 'package:busca_cep/application/modules/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:unip_presentation/application/bindings/application_bindings.dart';
-import 'package:unip_presentation/application/modules/app_routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   HttpOverrides.global = MyHttpOverrides();
-  runApp(const UnipPresentation());
+  runApp(const BuscaCep());
 }
 
 class MyHttpOverrides extends HttpOverrides {
@@ -20,8 +20,8 @@ class MyHttpOverrides extends HttpOverrides {
   }
 }
 
-class UnipPresentation extends StatelessWidget {
-  const UnipPresentation({Key? key}) : super(key: key);
+class BuscaCep extends StatelessWidget {
+  const BuscaCep({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

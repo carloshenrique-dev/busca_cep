@@ -1,5 +1,5 @@
-import 'package:unip_presentation/core/models/cep/cep_model.dart';
-import 'package:unip_presentation/core/repositories/search_repository.dart';
+import 'package:busca_cep/core/models/cep/cep_model.dart';
+import 'package:busca_cep/core/repositories/search_repository.dart';
 import './search_view_model.dart';
 
 class SearchViewModelImpl implements SearchViewModel {

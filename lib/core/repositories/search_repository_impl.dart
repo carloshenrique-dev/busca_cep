@@ -1,6 +1,6 @@
 import 'dart:developer';
-import 'package:unip_presentation/core/models/cep/cep_model.dart';
-import 'package:unip_presentation/core/services/api_service.dart';
+import 'package:busca_cep/core/models/cep/cep_model.dart';
+import 'package:busca_cep/core/services/api_service.dart';
 import './search_repository.dart';
 
 class SearchRepositoryImpl implements SearchRepository {

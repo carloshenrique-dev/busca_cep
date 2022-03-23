@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(unip_presentation LANGUAGES CXX)
+project(busca_cep LANGUAGES CXX)
 
-set(BINARY_NAME "unip_presentation")
+set(BINARY_NAME "busca_cep")
 
 cmake_policy(SET CMP0063 NEW)
 

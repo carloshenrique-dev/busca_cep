@@ -1,6 +1,6 @@
+import 'package:busca_cep/core/services/api_service.dart';
 import 'package:get/get.dart';
 import 'package:dio/dio.dart';
-import 'package:unip_presentation/core/services/api_service.dart';
 
 class ApplicationBindings implements Bindings {
   @override

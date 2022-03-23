@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "unip_presentation" "\0"
+            VALUE "FileDescription", "busca_cep" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "unip_presentation" "\0"
+            VALUE "InternalName", "busca_cep" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "unip_presentation.exe" "\0"
-            VALUE "ProductName", "unip_presentation" "\0"
+            VALUE "OriginalFilename", "busca_cep.exe" "\0"
+            VALUE "ProductName", "busca_cep" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

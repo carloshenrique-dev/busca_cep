@@ -1,6 +1,6 @@
+import 'package:busca_cep/application/themes/styles/app_images.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:unip_presentation/application/themes/styles/app_images.dart';
 
 class BackgroundWidget extends StatelessWidget {
   final Widget child;

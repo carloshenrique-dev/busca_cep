@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.unip_presentation">
+    package="com.example.busca_cep">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="unip_presentation"
+        android:label="busca_cep"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

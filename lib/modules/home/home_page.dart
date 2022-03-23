@@ -1,7 +1,6 @@
+import 'package:busca_cep/application/themes/widgets/background_widget.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:unip_presentation/application/themes/styles/app_colors.dart';
-import 'package:unip_presentation/application/themes/widgets/background_widget.dart';
 import '../../application/themes/styles/app_colors.dart';
 import './home_controller.dart';
 import 'widgets/cep_details_widget.dart';
